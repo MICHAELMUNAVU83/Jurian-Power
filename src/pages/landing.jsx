@@ -44,7 +44,7 @@ const Landing = () => {
           />
         </div>
         {/* Four images below */}
-        <div className="flex justify-center gap-4 mt-[40px] absolute -bottom-28 left-0 w-full z-10">
+        <div className="justify-center md:flex hidden gap-4 mt-[40px] absolute -bottom-28 left-0 w-full z-10">
           <img
             src="/images/herosection1.png"
             alt="Hero 1"
@@ -69,7 +69,7 @@ const Landing = () => {
       </div>
 
       {/* Our Power Solutions Section */}
-      <div className="px-4 sm:px-6 py-10 mt-28 ">
+      <div className="px-4 sm:px-6 py-10 md:mt-28 mt-8 ">
         <div className="font-bold mb-6 text-left max-w-xl">
           <h1
             className="text-2xl md:text-4xl"
@@ -239,12 +239,12 @@ const Landing = () => {
             <img
               src="/images/landing1.png"
               alt="Emergency Support"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8 py-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:py-6">
           <div className="w-full md:w-1/2 h-72 sm:h-96">
             <img
               src="/images/landing2.png"
@@ -266,8 +266,8 @@ const Landing = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-6 py-6">
-          <div className="w-full md:w-1/2 flex items-end p-6 min-h-[300px]">
+        <div className="flex flex-col md:flex-row gap-6 md:py-6">
+          <div className="w-full md:w-1/2 flex items-end md:p-6 min-h-[300px]">
             <div>
               <h2 className="text-2xl font-semibold mb-2">
                 Trusted Global Brands
@@ -291,7 +291,7 @@ const Landing = () => {
                 key={i}
                 src={`/images/${img}`}
                 alt={`Brand ${i + 1}`}
-                className="w-full h-[300px] object-cover rounded-lg"
+                className="w-full h-[300px] object-contain rounded-lg"
               />
             ))}
           </div>
