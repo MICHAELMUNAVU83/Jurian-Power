@@ -25,7 +25,7 @@ const categories = {
         image: "/images/generator1.png",
         specs: {
           power: "7.5kW",
-          fuel: "Natural Gas",
+          fuel: "Diesel",
           runtime: "Unlimited with fuel supply",
         },
       },
@@ -37,7 +37,7 @@ const categories = {
         image: "/images/generator2.png",
         specs: {
           power: "15kW",
-          fuel: "Natural Gas / Propane",
+          fuel: "Diesel",
           runtime: "Unlimited with fuel supply",
         },
       },
@@ -48,7 +48,7 @@ const categories = {
         image: "/images/generator1.png",
         specs: {
           power: "22kW",
-          fuel: "Natural Gas / Propane",
+          fuel: "Diesel",
           runtime: "Unlimited with fuel supply",
         },
       },
