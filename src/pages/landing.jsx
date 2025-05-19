@@ -102,7 +102,7 @@ const Landing = () => {
             {
               title: "Generator Installation",
               description:
-                "Purchase and professional installlation of geberators tailored to your needs.",
+                "Purchase and professional installlation of generators tailored to your needs.",
               icon: "icomoon-free:switch",
             },
             {
