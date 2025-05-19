@@ -14,14 +14,22 @@ function Footer() {
         </p>
         {/* Buttons */}
         <div className="flex space-x-4">
-          <button className="mt-4 bg-white text-[#41B26A] font-medium px-4 py-2 rounded hover:bg-[#41B26A] hover:text-white border border-white transition duration-300">
+          <a
+            href="tel:0790064777"
+            rel="noopener noreferrer"
+            className="mt-4 bg-white text-[#41B26A] font-medium px-4 py-2 rounded hover:bg-[#41B26A] hover:text-white border border-white transition duration-300"
+          >
             Contact Us
-          </button>
-          <button className="mt-4 bg-white text-[#41B26A] font-medium px-4 py-2 rounded hover:bg-[#41B26A] hover:text-white border border-white transition duration-300">
+          </a>
+          <a
+            href="tel:0790064777"
+            rel="noopener noreferrer"
+            className="mt-4 bg-white text-[#41B26A] font-medium px-4 py-2 rounded hover:bg-[#41B26A] hover:text-white border border-white transition duration-300"
+          >
             <span>Get Started</span>
             {/* Right Arrow */}
             <span className="text-tan-400 text-lg">→</span>
-          </button>
+          </a>
         </div>
       </div>
 

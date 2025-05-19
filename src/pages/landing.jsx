@@ -18,12 +18,20 @@ const Landing = () => {
           smoothly.
         </p>
         <div className="flex justify-center gap-4">
-          <button className="bg-[#41B26A] text-white px-6 py-2 rounded-md font-semibold shadow hover:bg-[#369a59] transition">
+          <a
+            href="tel:0790064777"
+            rel="noopener noreferrer"
+            className="bg-[#41B26A] text-white px-6 py-2 rounded-md font-semibold shadow hover:bg-[#369a59] transition"
+          >
             Request A Quote
-          </button>
-          <button className="bg-white border border-[#41B26A] text-[#41B26A] px-6 py-2 rounded-md font-semibold shadow hover:bg-[#41B26A] hover:text-white transition">
+          </a>
+          <a
+            href="tel:0790064777"
+            rel="noopener noreferrer"
+            className="bg-white border border-[#41B26A] text-[#41B26A] px-6 py-2 rounded-md font-semibold shadow hover:bg-[#41B26A] hover:text-white transition"
+          >
             Contact Us
-          </button>
+          </a>
         </div>
       </div>
 

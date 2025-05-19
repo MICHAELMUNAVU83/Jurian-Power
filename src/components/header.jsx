@@ -25,13 +25,15 @@ function Header() {
         {/* Buttons */}
         <div className="flex space-x-4 pt-2">
           <a
-            tel="0790064777"
+            href="tel:0790064777"
+            rel="noopener noreferrer"
             className="bg-[#41B26A] text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#41B26A] border hover:border-[#41B26A] transition"
           >
             Request A Quote
           </a>
           <a
-            tel="0790064777"
+            href="tel:0790064777"
+            rel="noopener noreferrer"
             className="bg-[#41B26A] text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#41B26A] border hover:border-[#41B26A] transition"
           >
             Contact Us

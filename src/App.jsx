@@ -27,7 +27,6 @@ const categories = {
           power: "7.5kW",
           fuel: "Natural Gas",
           runtime: "Unlimited with fuel supply",
-          price: "Ksh1,425,000",
         },
       },
       {
@@ -40,7 +39,6 @@ const categories = {
           power: "15kW",
           fuel: "Natural Gas / Propane",
           runtime: "Unlimited with fuel supply",
-          price: "Ksh1,425,000",
         },
       },
       {
@@ -52,7 +50,6 @@ const categories = {
           power: "22kW",
           fuel: "Natural Gas / Propane",
           runtime: "Unlimited with fuel supply",
-          price: "Ksh1,425,000",
         },
       },
     ],
@@ -72,7 +69,6 @@ const categories = {
           power: "3kW",
           fuel: "Gasoline",
           runtime: "8 hours",
-          price: "Ksh1,425,000",
         },
       },
       {

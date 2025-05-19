@@ -116,9 +116,13 @@ const ProductDetail = ({ categories }) => {
                 </div>
               </details>
             </div>
-            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md inline-flex items-center transition-colors duration-300 self-start mt-2">
+            <a
+              href="tel:0790064777"
+              rel="noopener noreferrer"
+              className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md inline-flex items-center transition-colors duration-300 self-start mt-2"
+            >
               Get in Touch <ArrowRight className="ml-2 w-4 h-4" />
-            </button>
+            </a>
           </div>
         </div>
       </div>

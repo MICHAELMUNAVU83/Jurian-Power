@@ -14,11 +14,13 @@ function Topbar() {
     <div className="w-full h-20 flex items-center justify-between px-4 md:px-8 py-4 bg-white shadow-sm relative z-50">
       {/* Logo on the left */}
       <div className="flex items-center h-full">
-        <img
-          src="/images/logo.jpg"
-          alt="Logo"
-          className="h-12 w-12 object-contain"
-        />
+        <a href="/">
+          <img
+            src="/images/logo.jpg"
+            alt="Logo"
+            className="h-12 w-12 object-contain"
+          />
+        </a>
       </div>
 
       {/* Center navigation links (desktop) */}
@@ -60,9 +62,13 @@ function Topbar() {
 
       {/* Green "Get Started" button on the right */}
       <div className=" items-center h-full hidden md:flex">
-        <button className="bg-[#41B26A] text-white px-5 py-2 rounded-md hover:bg-[#369a59] transition font-semibold">
+        <a
+          href="tel:0790064777"
+          rel="noopener noreferrer"
+          className="bg-[#41B26A] text-white px-5 py-2 rounded-md hover:bg-[#369a59] transition font-semibold"
+        >
           Get Started
-        </button>
+        </a>
       </div>
 
       {/* Mobile menu dropdown */}
