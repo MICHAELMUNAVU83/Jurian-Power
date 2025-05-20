@@ -5,7 +5,7 @@ function Topbar() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
-    { href: "/featured-products", label: "Featured Products" },
+    { href: "/products-services", label: "Products and Services" },
     { href: "/brands", label: "Brands" },
     { href: "/contact", label: "Contact Us" },
   ];

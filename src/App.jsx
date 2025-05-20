@@ -107,7 +107,7 @@ function App() {
       <Topbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/featured-products" element={<ProductsServices />} />
+        <Route path="/products-services" element={<ProductsServices />} />
         <Route
           path="/products/:categoryId"
           element={<ProductCategory categories={categories} />}

@@ -239,7 +239,7 @@ const Landing = () => {
                 technicians are available around the clock-every day of the
                 week. Whether it's a breakdown in the middle of the night or a
                 weekend emergency, our team is just a phone call away. You get
-                quick, exoert support without dilays.
+                quick, expert support without delays
               </p>
             </div>
           </div>
