@@ -40,21 +40,44 @@ function Footer() {
           {/* Quick Links */}
           <div className="flex flex-col text-white">
             <h1 className="font-bold text-lg mb-2">Quick Links</h1>
-            <Link to="/" className="text-xs mb-4">Home</Link>
-            <Link to="/about" className="text-xs mb-4">About Us</Link>
-            <Link to="/products-services" className="text-xs mb-4">Product and Services</Link>
-            <Link to="/brands" className="text-xs mb-4">Brands</Link>
-            <Link to="/contact" className="text-xs mb-4">Contact</Link>
+            <Link to="/" className="text-xs mb-4">
+              Home
+            </Link>
+            <Link to="/about" className="text-xs mb-4">
+              About Us
+            </Link>
+            <Link to="/products-services" className="text-xs mb-4">
+              Product and Services
+            </Link>
+            <Link to="/brands" className="text-xs mb-4">
+              Brands
+            </Link>
+            <Link to="/contact" className="text-xs mb-4">
+              Contact
+            </Link>
           </div>
 
           {/* Services */}
           <div className="flex flex-col text-white">
             <h1 className="font-bold text-lg mb-2">Services</h1>
-            <Link to="/services/generator-installation" className="text-xs mb-4">Generator Installation</Link>
-            <Link to="/services/maintenance-contracts" className="text-xs mb-4">Maintenance Contracts</Link>
-            <Link to="/services/genset-repair" className="text-xs mb-4">Genset Repair</Link>
-            <Link to="/services/on-call-service" className="text-xs mb-4">On-Call Service</Link>
-            <Link to="/services/electrical-services" className="text-xs mb-4">Electrical Services</Link>
+            <Link
+              to="/services/generator-installation"
+              className="text-xs mb-4"
+            >
+              Generator Installation
+            </Link>
+            <Link to="/services/maintenance" className="text-xs mb-4">
+              Maintenance Contracts
+            </Link>
+            <Link to="/services/consultation" className="text-xs mb-4">
+              Consultation
+            </Link>
+            <Link to="/services/documentation" className="text-xs mb-4">
+              Documentation
+            </Link>
+            <Link to="/services/emergency-support" className="text-xs mb-4">
+              Customer Support
+            </Link>
           </div>
 
           {/* Contact Us */}

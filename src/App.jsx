@@ -1,6 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router";
 import Home from "./pages/home";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Topbar from "./components/topbar";
 import Footer from "./components/footer";
@@ -105,6 +106,7 @@ function App() {
   return (
     <main className="px-4 sm:px-6 lg:px-8  mx-auto">
       <Topbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products-services" element={<ProductsServices />} />
