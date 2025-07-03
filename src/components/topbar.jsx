@@ -11,14 +11,14 @@ function Topbar() {
   ];
 
   return (
-    <div className="w-full h-20 flex items-center justify-between px-4 md:px-8 py-4 bg-white shadow-sm relative z-50">
+    <div className="w-full h-32 flex items-center justify-between px-4 md:px-8 py-4 bg-white shadow-sm relative z-50">
       {/* Logo on the left */}
       <div className="flex items-center h-full">
         <a href="/">
           <img
             src="/images/logo.jpg"
             alt="Logo"
-            className="h-12 w-12 object-contain"
+            className="h-32 w-32 object-contain"
           />
         </a>
       </div>
