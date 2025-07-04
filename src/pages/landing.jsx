@@ -25,7 +25,7 @@ const Landing = () => {
       id: 1,
       content:
         "Working with this team transformed our business operations. Their attention to detail and innovative solutions exceeded our expectations.",
-      author: "Sarah Mitchell",
+      author: "John Kimani",
       position: "CEO, TechFlow Solutions",
       rating: 5,
     },
@@ -33,7 +33,7 @@ const Landing = () => {
       id: 2,
       content:
         "Exceptional service from start to finish. They delivered on time, within budget, and the results speak for themselves.",
-      author: "Marcus Chen",
+      author: "Olive Cherop",
       position: "Director of Operations, InnovateX",
       rating: 5,
     },
@@ -41,7 +41,7 @@ const Landing = () => {
       id: 3,
       content:
         "The level of professionalism and expertise is unmatched. They took our vision and turned it into reality with precision.",
-      author: "Emily Rodriguez",
+      author: "Michael Mwangi",
       position: "Founder, Creative Dynamics",
       rating: 5,
     },
@@ -49,7 +49,7 @@ const Landing = () => {
       id: 4,
       content:
         "Outstanding communication throughout the entire process. They kept us informed and delivered exactly what we needed.",
-      author: "David Thompson",
+      author: "Sarah Wambui",
       position: "Marketing Manager, GrowthHub",
       rating: 5,
     },
@@ -57,7 +57,7 @@ const Landing = () => {
       id: 5,
       content:
         "Their innovative approach and technical expertise helped us achieve results we didn't think were possible.",
-      author: "Jessica Park",
+      author: "Alice Njeri",
       position: "Product Manager, NextGen Labs",
       rating: 5,
     },
@@ -65,7 +65,7 @@ const Landing = () => {
       id: 6,
       content:
         "Reliable, efficient, and incredibly skilled. They've become our go-to partner for all our development needs.",
-      author: "Robert Kim",
+      author: "David Otieno",
       position: "CTO, DataStream Corp",
       rating: 5,
     },
@@ -468,9 +468,6 @@ const Landing = () => {
                 <div className="border-t pt-4">
                   <p className="font-semibold text-gray-900 text-sm">
                     {testimonial.author}
-                  </p>
-                  <p className="text-xs text-gray-500 mt-1">
-                    {testimonial.position}
                   </p>
                 </div>
               </div>
